@@ -9,7 +9,7 @@ varied_style: true
 
 > Outline:
 > - Linear Regression
-> - Batch/stochastics gradient descent
+> - Batch/stochastic gradient descent
 > - Normal equation
 
 
@@ -53,7 +53,7 @@ When you sum up all the training data sets, the algorithm is called Batch Gradie
 	Imagine you have a large amount of dataset, when making one update to your parameters, in order to take a single step of gradient descent, you need to calculate this sum $\sum\limits_{i=1}^{m}$ for $n$ times.
 	If the descent needs hundreds of time to converge, then you'll be scanning through your entire data-set hundreds of times.
 
-The algorithm mainly tooks two steps:
+The algorithm mainly took two steps:
 	- State with some $\Theta$ (e.g. $\Theta = \vec{0}=[0, 0, 0, ...]$)
 	- Keep changing $\Theta$ to reduce $J(\Theta)$ , there is only one global minimum for linear regression
 $$\Theta_{j\ i}=\Theta_{j} - \alpha\cdot\frac{\partial}{\partial\ \Theta_{j}}(J(\Theta))\hspace{1cm} where\ j=0,1,2,...,\ \alpha=learning\ rate$$
@@ -82,7 +82,7 @@ $$\begin{align}
  &\}
 \end{align}$$
 
-In Stochastic Gradient Descent algorithm, instead of scanning through all million examples before you update the parameters $\Theta$ even a little bit, it use the derivative of just one single example. 
+In Stochastic Gradient Descent algorithm, instead of scanning through all million examples before you update the parameters $\Theta$ even a little bit, it uses the derivative of just one single example. 
 
 ---
 
