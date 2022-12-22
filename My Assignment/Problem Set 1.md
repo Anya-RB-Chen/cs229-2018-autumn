@@ -10,3 +10,5 @@ varied_style: true
 
 #### (a) 
 ![[QQ截图20221222171127.png]]
+![[f79b33714884c002be0a418b943d59f.jpg]]
+
