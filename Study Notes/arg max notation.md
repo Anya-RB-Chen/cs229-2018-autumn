@@ -1,0 +1,3 @@
+In [mathematics](https://en.wikipedia.org/wiki/Mathematics "Mathematics"), the **arguments of the maxima** (abbreviated **arg max** or **argmax**) are the points, or [elements](https://en.wikipedia.org/wiki/Greatest_and_least_elements "Greatest and least elements"), of the [domain](https://en.wikipedia.org/wiki/Domain_of_a_function "Domain of a function") of some [function](https://en.wikipedia.org/wiki/Function_(mathematics) "Function (mathematics)") at which the function values are [maximized](https://en.wikipedia.org/wiki/Maxima_and_minima "Maxima and minima").
+
+$$min_{z}(z-5)^{2}=0 \hspace{2cm} argmin_{z}(z-5)^{2} = 5$$
